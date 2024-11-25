@@ -7,9 +7,9 @@
 ##
 
 #Use double quotes to define a string
-first_name = "Travis"
+first_name = "Newbomb"
 
-#This will print out Travis
+#This will print out Newbomb
 print(first_name)
 
 #This will print out first_name
