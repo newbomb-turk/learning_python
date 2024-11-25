@@ -1,0 +1,10 @@
+Section 4 - Area Calculator
+
+Use a float instead of integer with your input function. 
+
+length = float(input(Please enter the LENGTH of your rectangle: "))
+width = float(input("Please enter the WIDTH of your rectangle: "))
+
+Then you can accept decimals instead of just whole numbers which certianly captures more of our imperfect world. 
+You could also add units to the print statements to be more specific. 
+
