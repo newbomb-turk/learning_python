@@ -22,11 +22,11 @@ multiplier = type(quantity)
 
 #The only thing about an if statement in Python is that you MUST follow it with a colon :
 
-if (multiplier = float) :
+if (multiplier == float) :
     #We see decimals, so we assume it is weight. 
-    print("weighjt")
+    print("weight")
     total_price = price * quantity
-elif (multiplier = int) :
+elif (multiplier == int) :
     print("quantity")
     #no decimals so we assume quantity.
     total_price = price * quantity
