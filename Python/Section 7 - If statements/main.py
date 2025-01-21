@@ -9,7 +9,7 @@
 #Price is typically in decimals, so I am choosing to use float type variable here. 
 price = float(input("Enter the price of the item: "))
 
-#Now we can ask a question, intutively. 
+#Now we can ask a question, intuitively. 
 
 quantity = input("Enter the amount or weight of product: ")
 
@@ -21,19 +21,25 @@ quantity = input("Enter the amount or weight of product: ")
 multiplier = type(quantity)
 
 #The only thing about an if statement in Python is that you MUST follow it with a colon :
+#and normal to other languages == is comparison only. You must uses two ='s otherwise it is thinking variable assignment. 
+#and here we are only checking the variable TYPE. *
 
 if (multiplier == float) :
     #We see decimals, so we assume it is weight. 
+
     print("weight")
     total_price = price * quantity
 elif (multiplier == int) :
     print("quantity")
     #no decimals so we assume quantity.
+
     total_price = price * quantity
 else : 
     print("Invalid input!")
 
+
 #We do NOT have to denote the end of loops in Python like we would shell scripts or other languages. 
+#This is quite weird if you are used to looking for fi, esac or enod 
 
 #Print out the price
 print(f"Total price is: {total_price}")
